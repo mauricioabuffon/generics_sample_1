@@ -16,11 +16,12 @@ public class Program {
 		int n = sc.nextInt();
 
 		for (int i=0; i<n ; i++) {
-			int value = sc.nextInt();
+			Integer value = sc.nextInt();
 			ps.addValue(value);
 		}
 		ps.print();
-		System.out.println(" First: " + ps.first());
+		System.out.println();
+		System.out.print("First: " + ps.first());
 	}
 
 }
